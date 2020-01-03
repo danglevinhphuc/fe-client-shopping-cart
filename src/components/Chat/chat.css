@@ -1,0 +1,58 @@
+.icon-chat {
+  left: initial;
+  right: 20px;
+  bottom: 40px;
+  position: fixed;
+  z-index: 1001;
+  background: #1e87da;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  width: 67px;
+  height: 63px;
+}
+.icon-chat i {
+  font-size: 30px;
+  color: #fff;
+  margin-top: 15px;
+}
+.chat-box {
+  width: 300px;
+  left: initial;
+  right: 0px;
+  bottom: 0px;
+  z-index: 10001;
+  position: fixed;
+}
+.chat-content {
+  border: 1px solid #e9ecef;
+  height: 200px;
+  padding: 10px;
+  overflow-y: scroll;
+}
+.background-title-chat {
+  background-color: #1e87da;
+  color: #fff;
+  height: 58px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 2px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #777;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1e87da;
+}
